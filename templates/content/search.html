@@ -1,0 +1,9 @@
+{{define "content"}}
+<h1>Search</h1>
+
+<form action="/repo/search" method="POST">
+    <div><input type="hidden" name="searchType" value={{.}}></div>
+    <div><input type="text" name="search"></div>
+    <div><input type="submit"></div>
+</form>
+{{end}}
