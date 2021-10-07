@@ -1,0 +1,14 @@
+{{define "content"}}
+<h1>Add a Password</h1>
+
+<form action="/repo/create" method="POST">
+    <div><label for="url">URL:</label><input type="text" id="url" name="url"></div>
+    <div><label for="username">Username:</label><input type="text" id="username" name="username"></div>
+    <div><label for="password">Password:</label><input type="password" id="password" name="password"></div>
+    <div><label for="name">Name:</label><input type="text" id="name" name="name"></div>
+    <div><label for="grouping">Grouping:</label><input type="text" id="grouping" name="grouping"></div>
+    <div><label for="extra">Extra:</label><input type="text" id="extra" name="extra"></div>
+    <div><label for="favorite">Favorite:</label><input type="checkbox" id="favorite" name="favorite" value="true"></div>
+    <div><input type="submit"></div>
+</form>
+{{end}}

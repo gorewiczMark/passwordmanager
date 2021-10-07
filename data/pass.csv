@@ -1,0 +1,10 @@
+url,username,password,extra,name,grouping,fav
+http://Home.com/,admin,password,,Home,Home,0
+http://Business.com/,admin,password,,Business,Business,0
+http://School.com/,admin,password,,School,School,0
+http://Video.com/,admin,password,,Video,Entertainment,0
+http://Music.coom/,admin,password,,Music,Entertainment,0
+Testing.Com,Test Smith,0mQV8w7sn8Ag,,Testing,Test,true
+http://www.Testing2.com,Test2,TestPass2,,T EST,Tests,true
+http://www.Testing3.com ,Test3,Gyn99KWNz3mm,,Tests,Test,false
+http://www.Testing3a.com ,Test 3a,gB88QUiyn1qk,,Te Sting,Test,true
