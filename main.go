@@ -19,7 +19,9 @@ var passEntries p.Entries
 var templates map[string]*template.Template
 
 func getPasswords(filename string) [][]string {
-	file, err := os.Open(filename)
+	// os.Open(filename)
+	flags := os.O_RDONLY
+	file, err := os.OpenFile(filename, flags, os.FileMode(0666))
 	if os.IsNotExist(err) {
 		return nil
 	}
