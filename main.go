@@ -15,6 +15,7 @@ import (
 	"strings"
 )
 
+// TODO: Variables for now look at removing
 var passEntries p.Entries
 var templates map[string]*template.Template
 
