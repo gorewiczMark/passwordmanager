@@ -7,3 +7,4 @@ Navigate to https://localhost:8080/repo/
 
 Note: cert.pem and key.pem are self generated certifactes to work with TLS
 
+Run `go run $GOROOT/src/crypto/tls/generate_cert.go -host localhost` to create cert.pem and key.pem
